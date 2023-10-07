@@ -1,0 +1,156 @@
+*{
+	font-family: cursive;
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	gap: 4rem;
+}
+header{
+	width: 100%;
+	height: 100vh;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	padding: 0 80px;
+	font-family: sans-serif;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 19px;
+	color: whitesmoke;
+}
+.logo{
+	font-size: 2em;
+	letter-spacing: 3px;
+	font-style: itali;
+    padding: 10px 20px;
+}
+.menu a{
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 10px 20px;
+	font-size: 20px;
+	position: relative;
+}
+.register a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 15px;
+	box-shadow: 0 0 5px goldenrod;
+	background: gold;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.register a:hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(1):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(2):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(3):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(4):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(5):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(6):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.menu a:nth-child(7):hover{
+	box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	color: yellow;
+	background: transparent;
+	border-color: black;
+}
+.h-txt{
+	max-width: 600px;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	color: white;
+}
+.h-txt span{
+	position: relative;
+    font-weight: 600;
+	font-family: cursive;
+    font-size: 45px;
+
+	letter-spacing: 2px;
+    -webkit-box-reflect: below -120px linear gradient(transparent,black);
+	text-shadow: 0 0 10px orangered,
+				0 0 10px orangered,
+				0 0 10px orangered,
+				0 0 10px orangered,
+				0 0 10px orangered;
+}
+.h-txt h1{
+	font-family: cursive;
+  font-size: 50px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-transform: capitalize;
+  text-shadow: 0 0 10px orangered,
+				0 0 10px orangered,
+				0 0 10px orangered,
+				0 0 10px orangered,
+				0 0 10px orangered;
+}
+.h-txt a{
+    text-decoration: none;
+	background: black;
+    -webkit-text-stroke: 1px white;
+	padding-left: 7px;
+    padding-right: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    border-radius: 9px;
+    border: 4px solid white;
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px gold, 0 0 25px gold,0 0 50px gold,0 0 100px gold, 0 0 200px gold;
+	transition: 0.8s;
+}
+.h-txt a:hover{
+	background: transparent;
+	border: 1px solid black;
+}
